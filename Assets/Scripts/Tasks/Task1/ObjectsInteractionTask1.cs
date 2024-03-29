@@ -7,7 +7,7 @@ public class ObjectsInteractionTask1 : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
             _refrigerator.Interact();
     }
 }
